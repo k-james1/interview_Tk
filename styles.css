@@ -55,31 +55,46 @@ body {
     line-height: 1.6;
     color:white;
   }
+  .button-container{
+    justify-content:center;
+  }
+  .page-button{
+    margin-left:30%;
+    max-width:60vh;
+    justify-content:center;
+    height:20vh;
+    padding:20px 10px 20px 10px;
+    display:flex;
+    gap:200px;
+  }
   a{
     text-decoration:none;
+    height:150px;
   }
-
-  
-  
-  .page-button{
-    max-width:20vh;
-    justify-content:center;
-    height:30vh;
-    padding:20px 10px 20px 10px;
+  a:hover{
+    opacity:0.5;
   }
   .page-button p{
-    color:black;
+    color:rgb(83, 83, 83);
     text-decoration:none;
+    font-size:16px;
+  }
+  .button-text{
+    margin-left:8px;
   }
   .button-next{
-    height:50px;
-    background-color:aquamarine;
-    padding:30px 10px 10px 30px;
+    height:80px;
+    background-image:url(page-next.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-bottom:-10px;
   }
   .button-back{
-    height:50px;
-    background-color:rgb(255, 127, 204);
-    padding:30px 10px 10px 30px;
+    height:80px;
+    background-image:url(page-back.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-bottom:-10px;
   }
 
   @media screen and (max-width: 767px) {
