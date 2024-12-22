@@ -34,33 +34,44 @@ body {
   
   
   .chapter {
-    height: 1500px;
+    height: 3000px;
     padding: 32px;
     margin-bottom: 64px;
   }
-  
   .chapter.common {
-    background-color:#7f8c8d;
-    border-radius:5%;
+    background-color:#2b4b4e;
+  
     padding:30px 70px 30px 70px;
   }
   
   .chapter h2 {
     font-size: 32px;
     color: #ffffff;
+    margin-top:50px;
   }
-  
-  .chapter p {
-    font-size: 18px;
-    line-height: 1.6;
-    color:white;
+  .chapter-talk{
+    margin-top:70px;
+  }
+  .chapter-talk dl{
+  display:flex;
+  font-size:16px;
+  color:white;
+  margin-bottom:30px;
+  }
+  .chapter-talk dt{
+    width:15%;
+    text-align:right;
+  }
+  .chapter-talk dd{
+    width:80%;
+    line-height:1.8em;
   }
   .button-container{
-    justify-content:center;
+    
+    max-width:60%;
+    margin: 0 auto;
   }
   .page-button{
-    margin-left:30%;
-    max-width:60vh;
     justify-content:center;
     height:20vh;
     padding:20px 10px 20px 10px;
@@ -97,6 +108,20 @@ body {
     margin-bottom:-10px;
   }
 
+  @media screen and (max-width: 950px) {
+    .chapter-talk dl{
+      display:flex;
+      font-size:14px;
+      }
+      a{
+        text-decoration:none;
+        width:60px;
+      }
+      .page-button p{
+        font-size:13px;
+      }
+  }
+
   @media screen and (max-width: 767px) {
     h1 {
       font-size: 32px;
@@ -115,7 +140,7 @@ body {
     }
   
     .chapter.common{
-      height: 600px;
+      height: 2800px;
       padding: 30px 50px 30px 50px;
       margin-bottom: 48px;
     }
@@ -124,8 +149,12 @@ body {
       font-size: 24px;
     }
   
-    .chapter p {
-      font-size: 16px;
-    }
+    .chapter-talk dl{
+      display:flex;
+      font-size:12px;
+      }
+      .page-button p{
+        font-size:11px;
+      }
   }
-  
+
