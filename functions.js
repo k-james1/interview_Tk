@@ -2,7 +2,7 @@ const chapters = document.querySelectorAll('.chapter');
 
 chapters.forEach((chapter) => { //それぞれのチャプターについての
   gsap.fromTo(chapter, {autoAlpha: 0, y: 50}, {
-    duration: .5,
+    duration: .3,
     autoAlpha: 1,
     y: 0,
     ease: 'power4.inOut',

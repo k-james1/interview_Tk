@@ -1,12 +1,20 @@
+@font-face {
+  font-family:"Klee";
+  src:url("Klee_One/KleeOne-Regular.ttf") format("truetype");
+ }
 body {
-    font-family: Arial, sans-serif;
+   font-family:"Klee";
     color: #333;
-    background-color:rgb(228, 177, 118);
+    background-color:rgb(211, 173, 129);
   }
   
   h1 {
     font-size: 40px;
     color: #2c3e50;
+  }
+  .numero{
+    font-size:40px;
+    color:white;
   }
   
   span {
@@ -29,9 +37,11 @@ body {
     text-align: center;
     padding: 32px 0;
     height:80vh;
-   background-color:grey;
+   background-color:rgb(2, 11, 30);
   }
-  
+  .header img{
+    height:90%;
+  }
   
   .chapter {
     height: 3000px;
@@ -39,8 +49,6 @@ body {
     margin-bottom: 64px;
   }
   .chapter.common {
-    background-color:#2b4b4e;
-  
     padding:30px 70px 30px 70px;
   }
   
