@@ -29,15 +29,36 @@ body {
       width:100%;
       margin-bottom:30vh;
     }
+  .header1 {
+    padding: 32px 0;
+    height:300vh;
+   background-color:rgb(2, 11, 30);
+  }
+  .box-container{
+    margin-bottom:50vh;
+  }
+  .box{
+    width:20vh;
+    height:40vh;
+    background-color:white;
+    margin-bottom:50vh;
+    margin-left:10%;
+  }
+  .box2{
+    width:20vh;
+    height:40vh;
+    background-color:white;
+    margin-left:75%;
+  }
+
   .header {
-    text-align: center;
+    text-align:center;
     padding: 32px 0;
     height:80vh;
    background-color:rgb(2, 11, 30);
   }
-  .header img{
-    height:90%;
-  }
+
+
   .numero{
     font-size:40px;
     color:white;
@@ -75,13 +96,7 @@ body {
     line-height:1.8em;
   }
 
-  .illust-test{
-    background-color:#7f8c8d;
-    width:40vh;
-    height:200vh;
-    margin-top:20%;
-    margin-right:10vh;
-  }
+
   .big-container2{
     display:flex;
     height:500vh
